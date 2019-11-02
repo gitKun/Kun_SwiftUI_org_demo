@@ -10,6 +10,8 @@ import SwiftUI
 
 struct PageView<Page: View>: View {
     
+    @State var currentPage: Int = 0
+    
     var viewControllers: [UIHostingController<Page>]
     
     init(_ views: [Page]) {
@@ -17,7 +19,11 @@ struct PageView<Page: View>: View {
     }
     
     var body: some View {
-        PageViewController(controllers: viewControllers)
+        ZStack(alignment: .bottomTrailing) {
+            PageViewController(controllers: viewControllers, currentPage: $currentPage)
+            PageControl(numberOfPages: viewControllers.count, currentPage: $currentPage)
+        }
+        .padding(0)
     }
 }
 

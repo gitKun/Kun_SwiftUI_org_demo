@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A126026D236DBDC80028E898 /* PageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = A126026C236DBDC80028E898 /* PageControl.swift */; };
 		A139C57323668F2D006886E2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A139C57223668F2D006886E2 /* AppDelegate.swift */; };
 		A139C57523668F2D006886E2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A139C57423668F2D006886E2 /* SceneDelegate.swift */; };
 		A139C57723668F2D006886E2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A139C57623668F2D006886E2 /* ContentView.swift */; };
@@ -62,6 +63,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A126026C236DBDC80028E898 /* PageControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageControl.swift; sourceTree = "<group>"; };
 		A139C56F23668F2D006886E2 /* SwiftUI_Org_Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUI_Org_Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A139C57223668F2D006886E2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A139C57423668F2D006886E2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -162,6 +164,7 @@
 				A1AEE51A2368217F00558BCF /* HikeBadge.swift */,
 				A1AEE51E23683F3000558BCF /* PageViewController.swift */,
 				A1AEE5202368407000558BCF /* PageView.swift */,
+				A126026C236DBDC80028E898 /* PageControl.swift */,
 				A1AEE51323681D8600558BCF /* Profile */,
 				A1A4A5AE2367C4F100D4C3AD /* Supporting Views */,
 				A139C5AA2366A6B0006886E2 /* Models */,
@@ -344,6 +347,7 @@
 				A1A4A5C82367F90300D4C3AD /* CategoryRow.swift in Sources */,
 				A1A4A5BE2367DA7900D4C3AD /* Hike.swift in Sources */,
 				A1A4A5AD2366F20E00D4C3AD /* UserData.swift in Sources */,
+				A126026D236DBDC80028E898 /* PageControl.swift in Sources */,
 				A1AEE523236845BC00558BCF /* FeatureCard.swift in Sources */,
 				A139C57523668F2D006886E2 /* SceneDelegate.swift in Sources */,
 				A1A4A5B62367D06E00D4C3AD /* BadgeSymbol.swift in Sources */,
