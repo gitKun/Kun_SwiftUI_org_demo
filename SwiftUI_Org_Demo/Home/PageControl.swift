@@ -24,7 +24,8 @@ struct PageControl: UIViewRepresentable {
         control.addTarget(
             context.coordinator,
             action: #selector(Coordinator.updateCurrentPage(sender:)),
-            for: .valueChanged)
+            for: .valueChanged
+        )
         return control
     }
     

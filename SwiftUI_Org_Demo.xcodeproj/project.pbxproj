@@ -153,21 +153,12 @@
 				A139C57223668F2D006886E2 /* AppDelegate.swift */,
 				A139C57423668F2D006886E2 /* SceneDelegate.swift */,
 				A139C57623668F2D006886E2 /* ContentView.swift */,
-				A1A4A5A82366C52900D4C3AD /* LandmarkList.swift */,
-				A139C5AF2366BEFE006886E2 /* LandmarkRow.swift */,
-				A139C5AD2366BE7F006886E2 /* LandmarkDetail.swift */,
-				A1A4A5B12367C72F00D4C3AD /* HexagonParameters.swift */,
-				A1A4A5C12367DB6600D4C3AD /* HikeView.swift */,
-				A1A4A5C32367DBA800D4C3AD /* HikeDetail.swift */,
-				A1A4A5C52367E96500D4C3AD /* Home.swift */,
-				A1A4A5C72367F90300D4C3AD /* CategoryRow.swift */,
-				A1AEE51A2368217F00558BCF /* HikeBadge.swift */,
-				A1AEE51E23683F3000558BCF /* PageViewController.swift */,
-				A1AEE5202368407000558BCF /* PageView.swift */,
-				A126026C236DBDC80028E898 /* PageControl.swift */,
-				A1AEE51323681D8600558BCF /* Profile */,
-				A1A4A5AE2367C4F100D4C3AD /* Supporting Views */,
+				BCEC2C09236E71B500476688 /* Home */,
+				BCEC2C0A236E71E600476688 /* Landmark Views */,
 				A139C5AA2366A6B0006886E2 /* Models */,
+				A1AEE51323681D8600558BCF /* Profile */,
+				BCEC2C0B236E726D00476688 /* Hike */,
+				A1A4A5AE2367C4F100D4C3AD /* Supporting Views */,
 				A139C58A23669A86006886E2 /* Resources */,
 				A139C57823668F30006886E2 /* Assets.xcassets */,
 				A139C57D23668F30006886E2 /* LaunchScreen.storyboard */,
@@ -188,11 +179,11 @@
 		A139C58A23669A86006886E2 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				A139C58B23669AD3006886E2 /* landmarkData.json */,
+				A1A4A5B92367D8DD00D4C3AD /* hikeData.json */,
 				A1AEE525236846C700558BCF /* charleyrivers_feature.jpg */,
 				A1AEE526236846C700558BCF /* stmarylake_feature.jpg */,
 				A1AEE524236846C600558BCF /* turtlerock_feature.jpg */,
-				A139C58B23669AD3006886E2 /* landmarkData.json */,
-				A1A4A5B92367D8DD00D4C3AD /* hikeData.json */,
 				A139C59723669AD4006886E2 /* chilkoottrail.jpg */,
 				A139C59623669AD4006886E2 /* chincoteague.jpg */,
 				A139C59423669AD4006886E2 /* hiddenlake.jpg */,
@@ -225,15 +216,13 @@
 		A1A4A5AE2367C4F100D4C3AD /* Supporting Views */ = {
 			isa = PBXGroup;
 			children = (
+				A1AEE522236845BC00558BCF /* FeatureCard.swift */,
 				A139C586236691A1006886E2 /* CircleImage.swift */,
 				A139C5882366949A006886E2 /* MapView.swift */,
 				A1A4A5AF2367C54A00D4C3AD /* Badge.swift */,
-				A1A4A5B32367D00200D4C3AD /* BadgeBackground.swift */,
 				A1A4A5B52367D06E00D4C3AD /* BadgeSymbol.swift */,
 				A1A4A5B72367D3C400D4C3AD /* RotatedBadgeSymbol.swift */,
-				A1A4A5BB2367DA1100D4C3AD /* HikeGraph.swift */,
-				A1A4A5BF2367DAF700D4C3AD /* GraphCapsule.swift */,
-				A1AEE522236845BC00558BCF /* FeatureCard.swift */,
+				A1A4A5B32367D00200D4C3AD /* BadgeBackground.swift */,
 			);
 			path = "Supporting Views";
 			sourceTree = "<group>";
@@ -246,6 +235,41 @@
 				A1AEE51C2368285400558BCF /* ProfileEditor.swift */,
 			);
 			path = Profile;
+			sourceTree = "<group>";
+		};
+		BCEC2C09236E71B500476688 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				A1A4A5C52367E96500D4C3AD /* Home.swift */,
+				A1A4A5C72367F90300D4C3AD /* CategoryRow.swift */,
+				A1AEE51E23683F3000558BCF /* PageViewController.swift */,
+				A1AEE5202368407000558BCF /* PageView.swift */,
+				A126026C236DBDC80028E898 /* PageControl.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		BCEC2C0A236E71E600476688 /* Landmark Views */ = {
+			isa = PBXGroup;
+			children = (
+				A1A4A5A82366C52900D4C3AD /* LandmarkList.swift */,
+				A139C5AF2366BEFE006886E2 /* LandmarkRow.swift */,
+				A139C5AD2366BE7F006886E2 /* LandmarkDetail.swift */,
+			);
+			path = "Landmark Views";
+			sourceTree = "<group>";
+		};
+		BCEC2C0B236E726D00476688 /* Hike */ = {
+			isa = PBXGroup;
+			children = (
+				A1AEE51A2368217F00558BCF /* HikeBadge.swift */,
+				A1A4A5B12367C72F00D4C3AD /* HexagonParameters.swift */,
+				A1A4A5C12367DB6600D4C3AD /* HikeView.swift */,
+				A1A4A5C32367DBA800D4C3AD /* HikeDetail.swift */,
+				A1A4A5BB2367DA1100D4C3AD /* HikeGraph.swift */,
+				A1A4A5BF2367DAF700D4C3AD /* GraphCapsule.swift */,
+			);
+			path = Hike;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
